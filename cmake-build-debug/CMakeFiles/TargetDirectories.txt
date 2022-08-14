@@ -5,5 +5,8 @@ E:/CLion 2022.2/CLION PROGRAMS/sp/cmake-build-debug/CMakeFiles/labs6zad8.dir
 E:/CLion 2022.2/CLION PROGRAMS/sp/cmake-build-debug/CMakeFiles/labs6zad9.dir
 E:/CLion 2022.2/CLION PROGRAMS/sp/cmake-build-debug/CMakeFiles/labs6zad10.dir
 E:/CLion 2022.2/CLION PROGRAMS/sp/cmake-build-debug/CMakeFiles/labs6zad11.dir
+E:/CLion 2022.2/CLION PROGRAMS/sp/cmake-build-debug/CMakeFiles/zad1.dir
+E:/CLion 2022.2/CLION PROGRAMS/sp/cmake-build-debug/CMakeFiles/zad3.dir
+E:/CLion 2022.2/CLION PROGRAMS/sp/cmake-build-debug/CMakeFiles/zad4.dir
 E:/CLion 2022.2/CLION PROGRAMS/sp/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/CLion 2022.2/CLION PROGRAMS/sp/cmake-build-debug/CMakeFiles/rebuild_cache.dir

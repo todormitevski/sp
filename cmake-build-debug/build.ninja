@@ -271,6 +271,105 @@ build labs6zad11.exe: C_EXECUTABLE_LINKER__labs6zad11_Debug CMakeFiles/labs6zad1
   TARGET_IMPLIB = liblabs6zad11.dll.a
   TARGET_PDB = labs6zad11.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target zad1
+
+
+#############################################
+# Order-only phony target for zad1
+
+build cmake_object_order_depends_target_zad1: phony || CMakeFiles/zad1.dir
+
+build CMakeFiles/zad1.dir/labs7/zad1.c.obj: C_COMPILER__zad1_Debug E$:/CLion$ 2022.2/CLION$ PROGRAMS/sp/labs7/zad1.c || cmake_object_order_depends_target_zad1
+  DEP_FILE = CMakeFiles\zad1.dir\labs7\zad1.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\zad1.dir
+  OBJECT_FILE_DIR = CMakeFiles\zad1.dir\labs7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zad1
+
+
+#############################################
+# Link the executable zad1.exe
+
+build zad1.exe: C_EXECUTABLE_LINKER__zad1_Debug CMakeFiles/zad1.dir/labs7/zad1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\zad1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = zad1.exe
+  TARGET_IMPLIB = libzad1.dll.a
+  TARGET_PDB = zad1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target zad3
+
+
+#############################################
+# Order-only phony target for zad3
+
+build cmake_object_order_depends_target_zad3: phony || CMakeFiles/zad3.dir
+
+build CMakeFiles/zad3.dir/labs7/zad3.c.obj: C_COMPILER__zad3_Debug E$:/CLion$ 2022.2/CLION$ PROGRAMS/sp/labs7/zad3.c || cmake_object_order_depends_target_zad3
+  DEP_FILE = CMakeFiles\zad3.dir\labs7\zad3.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\zad3.dir
+  OBJECT_FILE_DIR = CMakeFiles\zad3.dir\labs7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zad3
+
+
+#############################################
+# Link the executable zad3.exe
+
+build zad3.exe: C_EXECUTABLE_LINKER__zad3_Debug CMakeFiles/zad3.dir/labs7/zad3.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\zad3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = zad3.exe
+  TARGET_IMPLIB = libzad3.dll.a
+  TARGET_PDB = zad3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target zad4
+
+
+#############################################
+# Order-only phony target for zad4
+
+build cmake_object_order_depends_target_zad4: phony || CMakeFiles/zad4.dir
+
+build CMakeFiles/zad4.dir/labs7/zad4.c.obj: C_COMPILER__zad4_Debug E$:/CLion$ 2022.2/CLION$ PROGRAMS/sp/labs7/zad4.c || cmake_object_order_depends_target_zad4
+  DEP_FILE = CMakeFiles\zad4.dir\labs7\zad4.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\zad4.dir
+  OBJECT_FILE_DIR = CMakeFiles\zad4.dir\labs7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zad4
+
+
+#############################################
+# Link the executable zad4.exe
+
+build zad4.exe: C_EXECUTABLE_LINKER__zad4_Debug CMakeFiles/zad4.dir/labs7/zad4.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\zad4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = zad4.exe
+  TARGET_IMPLIB = libzad4.dll.a
+  TARGET_PDB = zad4.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -311,6 +410,12 @@ build labs6zad8: phony labs6zad8.exe
 
 build labs6zad9: phony labs6zad9.exe
 
+build zad1: phony zad1.exe
+
+build zad3: phony zad3.exe
+
+build zad4: phony zad4.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -319,7 +424,7 @@ build labs6zad9: phony labs6zad9.exe
 #############################################
 # Folder: E:/CLion 2022.2/CLION PROGRAMS/sp/cmake-build-debug
 
-build all: phony labs6zad1.exe labs6zad3.exe labs6zad4.exe labs6zad8.exe labs6zad9.exe labs6zad10.exe labs6zad11.exe
+build all: phony labs6zad1.exe labs6zad3.exe labs6zad4.exe labs6zad8.exe labs6zad9.exe labs6zad10.exe labs6zad11.exe zad1.exe zad3.exe zad4.exe
 
 # =============================================================================
 # Built-in targets
