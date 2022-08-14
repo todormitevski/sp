@@ -172,6 +172,105 @@ build labs6zad8.exe: C_EXECUTABLE_LINKER__labs6zad8_Debug CMakeFiles/labs6zad8.d
   TARGET_IMPLIB = liblabs6zad8.dll.a
   TARGET_PDB = labs6zad8.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target labs6zad9
+
+
+#############################################
+# Order-only phony target for labs6zad9
+
+build cmake_object_order_depends_target_labs6zad9: phony || CMakeFiles/labs6zad9.dir
+
+build CMakeFiles/labs6zad9.dir/labs6/labs6zad9.c.obj: C_COMPILER__labs6zad9_Debug E$:/CLion$ 2022.2/CLION$ PROGRAMS/sp/labs6/labs6zad9.c || cmake_object_order_depends_target_labs6zad9
+  DEP_FILE = CMakeFiles\labs6zad9.dir\labs6\labs6zad9.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\labs6zad9.dir
+  OBJECT_FILE_DIR = CMakeFiles\labs6zad9.dir\labs6
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target labs6zad9
+
+
+#############################################
+# Link the executable labs6zad9.exe
+
+build labs6zad9.exe: C_EXECUTABLE_LINKER__labs6zad9_Debug CMakeFiles/labs6zad9.dir/labs6/labs6zad9.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\labs6zad9.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = labs6zad9.exe
+  TARGET_IMPLIB = liblabs6zad9.dll.a
+  TARGET_PDB = labs6zad9.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target labs6zad10
+
+
+#############################################
+# Order-only phony target for labs6zad10
+
+build cmake_object_order_depends_target_labs6zad10: phony || CMakeFiles/labs6zad10.dir
+
+build CMakeFiles/labs6zad10.dir/labs6/labs6zad10.c.obj: C_COMPILER__labs6zad10_Debug E$:/CLion$ 2022.2/CLION$ PROGRAMS/sp/labs6/labs6zad10.c || cmake_object_order_depends_target_labs6zad10
+  DEP_FILE = CMakeFiles\labs6zad10.dir\labs6\labs6zad10.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\labs6zad10.dir
+  OBJECT_FILE_DIR = CMakeFiles\labs6zad10.dir\labs6
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target labs6zad10
+
+
+#############################################
+# Link the executable labs6zad10.exe
+
+build labs6zad10.exe: C_EXECUTABLE_LINKER__labs6zad10_Debug CMakeFiles/labs6zad10.dir/labs6/labs6zad10.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\labs6zad10.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = labs6zad10.exe
+  TARGET_IMPLIB = liblabs6zad10.dll.a
+  TARGET_PDB = labs6zad10.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target labs6zad11
+
+
+#############################################
+# Order-only phony target for labs6zad11
+
+build cmake_object_order_depends_target_labs6zad11: phony || CMakeFiles/labs6zad11.dir
+
+build CMakeFiles/labs6zad11.dir/labs6/labs6zad11.c.obj: C_COMPILER__labs6zad11_Debug E$:/CLion$ 2022.2/CLION$ PROGRAMS/sp/labs6/labs6zad11.c || cmake_object_order_depends_target_labs6zad11
+  DEP_FILE = CMakeFiles\labs6zad11.dir\labs6\labs6zad11.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\labs6zad11.dir
+  OBJECT_FILE_DIR = CMakeFiles\labs6zad11.dir\labs6
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target labs6zad11
+
+
+#############################################
+# Link the executable labs6zad11.exe
+
+build labs6zad11.exe: C_EXECUTABLE_LINKER__labs6zad11_Debug CMakeFiles/labs6zad11.dir/labs6/labs6zad11.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\labs6zad11.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = labs6zad11.exe
+  TARGET_IMPLIB = liblabs6zad11.dll.a
+  TARGET_PDB = labs6zad11.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -200,11 +299,17 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build labs6zad1: phony labs6zad1.exe
 
+build labs6zad10: phony labs6zad10.exe
+
+build labs6zad11: phony labs6zad11.exe
+
 build labs6zad3: phony labs6zad3.exe
 
 build labs6zad4: phony labs6zad4.exe
 
 build labs6zad8: phony labs6zad8.exe
+
+build labs6zad9: phony labs6zad9.exe
 
 # =============================================================================
 # Folder targets.
@@ -214,7 +319,7 @@ build labs6zad8: phony labs6zad8.exe
 #############################################
 # Folder: E:/CLion 2022.2/CLION PROGRAMS/sp/cmake-build-debug
 
-build all: phony labs6zad1.exe labs6zad3.exe labs6zad4.exe labs6zad8.exe
+build all: phony labs6zad1.exe labs6zad3.exe labs6zad4.exe labs6zad8.exe labs6zad9.exe labs6zad10.exe labs6zad11.exe
 
 # =============================================================================
 # Built-in targets
