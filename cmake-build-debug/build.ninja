@@ -370,6 +370,138 @@ build zad4.exe: C_EXECUTABLE_LINKER__zad4_Debug CMakeFiles/zad4.dir/labs7/zad4.c
   TARGET_IMPLIB = libzad4.dll.a
   TARGET_PDB = zad4.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target audf1
+
+
+#############################################
+# Order-only phony target for audf1
+
+build cmake_object_order_depends_target_audf1: phony || CMakeFiles/audf1.dir
+
+build CMakeFiles/audf1.dir/audfunkcii/audf1.c.obj: C_COMPILER__audf1_Debug E$:/CLion$ 2022.2/CLION$ PROGRAMS/sp/audfunkcii/audf1.c || cmake_object_order_depends_target_audf1
+  DEP_FILE = CMakeFiles\audf1.dir\audfunkcii\audf1.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\audf1.dir
+  OBJECT_FILE_DIR = CMakeFiles\audf1.dir\audfunkcii
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target audf1
+
+
+#############################################
+# Link the executable audf1.exe
+
+build audf1.exe: C_EXECUTABLE_LINKER__audf1_Debug CMakeFiles/audf1.dir/audfunkcii/audf1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\audf1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = audf1.exe
+  TARGET_IMPLIB = libaudf1.dll.a
+  TARGET_PDB = audf1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target audf2
+
+
+#############################################
+# Order-only phony target for audf2
+
+build cmake_object_order_depends_target_audf2: phony || CMakeFiles/audf2.dir
+
+build CMakeFiles/audf2.dir/audfunkcii/audf2.c.obj: C_COMPILER__audf2_Debug E$:/CLion$ 2022.2/CLION$ PROGRAMS/sp/audfunkcii/audf2.c || cmake_object_order_depends_target_audf2
+  DEP_FILE = CMakeFiles\audf2.dir\audfunkcii\audf2.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\audf2.dir
+  OBJECT_FILE_DIR = CMakeFiles\audf2.dir\audfunkcii
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target audf2
+
+
+#############################################
+# Link the executable audf2.exe
+
+build audf2.exe: C_EXECUTABLE_LINKER__audf2_Debug CMakeFiles/audf2.dir/audfunkcii/audf2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\audf2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = audf2.exe
+  TARGET_IMPLIB = libaudf2.dll.a
+  TARGET_PDB = audf2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target labs8zad1
+
+
+#############################################
+# Order-only phony target for labs8zad1
+
+build cmake_object_order_depends_target_labs8zad1: phony || CMakeFiles/labs8zad1.dir
+
+build CMakeFiles/labs8zad1.dir/labs8/labs8zad1.c.obj: C_COMPILER__labs8zad1_Debug E$:/CLion$ 2022.2/CLION$ PROGRAMS/sp/labs8/labs8zad1.c || cmake_object_order_depends_target_labs8zad1
+  DEP_FILE = CMakeFiles\labs8zad1.dir\labs8\labs8zad1.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\labs8zad1.dir
+  OBJECT_FILE_DIR = CMakeFiles\labs8zad1.dir\labs8
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target labs8zad1
+
+
+#############################################
+# Link the executable labs8zad1.exe
+
+build labs8zad1.exe: C_EXECUTABLE_LINKER__labs8zad1_Debug CMakeFiles/labs8zad1.dir/labs8/labs8zad1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\labs8zad1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = labs8zad1.exe
+  TARGET_IMPLIB = liblabs8zad1.dll.a
+  TARGET_PDB = labs8zad1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target labs8zad2
+
+
+#############################################
+# Order-only phony target for labs8zad2
+
+build cmake_object_order_depends_target_labs8zad2: phony || CMakeFiles/labs8zad2.dir
+
+build CMakeFiles/labs8zad2.dir/labs8/labs8zad2.c.obj: C_COMPILER__labs8zad2_Debug E$:/CLion$ 2022.2/CLION$ PROGRAMS/sp/labs8/labs8zad2.c || cmake_object_order_depends_target_labs8zad2
+  DEP_FILE = CMakeFiles\labs8zad2.dir\labs8\labs8zad2.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\labs8zad2.dir
+  OBJECT_FILE_DIR = CMakeFiles\labs8zad2.dir\labs8
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target labs8zad2
+
+
+#############################################
+# Link the executable labs8zad2.exe
+
+build labs8zad2.exe: C_EXECUTABLE_LINKER__labs8zad2_Debug CMakeFiles/labs8zad2.dir/labs8/labs8zad2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\labs8zad2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = labs8zad2.exe
+  TARGET_IMPLIB = liblabs8zad2.dll.a
+  TARGET_PDB = labs8zad2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -396,6 +528,10 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build audf1: phony audf1.exe
+
+build audf2: phony audf2.exe
+
 build labs6zad1: phony labs6zad1.exe
 
 build labs6zad10: phony labs6zad10.exe
@@ -409,6 +545,10 @@ build labs6zad4: phony labs6zad4.exe
 build labs6zad8: phony labs6zad8.exe
 
 build labs6zad9: phony labs6zad9.exe
+
+build labs8zad1: phony labs8zad1.exe
+
+build labs8zad2: phony labs8zad2.exe
 
 build zad1: phony zad1.exe
 
@@ -424,7 +564,7 @@ build zad4: phony zad4.exe
 #############################################
 # Folder: E:/CLion 2022.2/CLION PROGRAMS/sp/cmake-build-debug
 
-build all: phony labs6zad1.exe labs6zad3.exe labs6zad4.exe labs6zad8.exe labs6zad9.exe labs6zad10.exe labs6zad11.exe zad1.exe zad3.exe zad4.exe
+build all: phony labs6zad1.exe labs6zad3.exe labs6zad4.exe labs6zad8.exe labs6zad9.exe labs6zad10.exe labs6zad11.exe zad1.exe zad3.exe zad4.exe audf1.exe audf2.exe labs8zad1.exe labs8zad2.exe
 
 # =============================================================================
 # Built-in targets
