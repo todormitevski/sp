@@ -502,6 +502,237 @@ build labs8zad2.exe: C_EXECUTABLE_LINKER__labs8zad2_Debug CMakeFiles/labs8zad2.d
   TARGET_IMPLIB = liblabs8zad2.dll.a
   TARGET_PDB = labs8zad2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target auds1
+
+
+#############################################
+# Order-only phony target for auds1
+
+build cmake_object_order_depends_target_auds1: phony || CMakeFiles/auds1.dir
+
+build CMakeFiles/auds1.dir/audstringovi/auds1.c.obj: C_COMPILER__auds1_Debug E$:/CLion$ 2022.2/CLION$ PROGRAMS/sp/audstringovi/auds1.c || cmake_object_order_depends_target_auds1
+  DEP_FILE = CMakeFiles\auds1.dir\audstringovi\auds1.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\auds1.dir
+  OBJECT_FILE_DIR = CMakeFiles\auds1.dir\audstringovi
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target auds1
+
+
+#############################################
+# Link the executable auds1.exe
+
+build auds1.exe: C_EXECUTABLE_LINKER__auds1_Debug CMakeFiles/auds1.dir/audstringovi/auds1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\auds1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = auds1.exe
+  TARGET_IMPLIB = libauds1.dll.a
+  TARGET_PDB = auds1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target auds2
+
+
+#############################################
+# Order-only phony target for auds2
+
+build cmake_object_order_depends_target_auds2: phony || CMakeFiles/auds2.dir
+
+build CMakeFiles/auds2.dir/audstringovi/auds2.c.obj: C_COMPILER__auds2_Debug E$:/CLion$ 2022.2/CLION$ PROGRAMS/sp/audstringovi/auds2.c || cmake_object_order_depends_target_auds2
+  DEP_FILE = CMakeFiles\auds2.dir\audstringovi\auds2.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\auds2.dir
+  OBJECT_FILE_DIR = CMakeFiles\auds2.dir\audstringovi
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target auds2
+
+
+#############################################
+# Link the executable auds2.exe
+
+build auds2.exe: C_EXECUTABLE_LINKER__auds2_Debug CMakeFiles/auds2.dir/audstringovi/auds2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\auds2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = auds2.exe
+  TARGET_IMPLIB = libauds2.dll.a
+  TARGET_PDB = auds2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target auds3
+
+
+#############################################
+# Order-only phony target for auds3
+
+build cmake_object_order_depends_target_auds3: phony || CMakeFiles/auds3.dir
+
+build CMakeFiles/auds3.dir/audstringovi/auds3.c.obj: C_COMPILER__auds3_Debug E$:/CLion$ 2022.2/CLION$ PROGRAMS/sp/audstringovi/auds3.c || cmake_object_order_depends_target_auds3
+  DEP_FILE = CMakeFiles\auds3.dir\audstringovi\auds3.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\auds3.dir
+  OBJECT_FILE_DIR = CMakeFiles\auds3.dir\audstringovi
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target auds3
+
+
+#############################################
+# Link the executable auds3.exe
+
+build auds3.exe: C_EXECUTABLE_LINKER__auds3_Debug CMakeFiles/auds3.dir/audstringovi/auds3.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\auds3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = auds3.exe
+  TARGET_IMPLIB = libauds3.dll.a
+  TARGET_PDB = auds3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target auds4
+
+
+#############################################
+# Order-only phony target for auds4
+
+build cmake_object_order_depends_target_auds4: phony || CMakeFiles/auds4.dir
+
+build CMakeFiles/auds4.dir/audstringovi/auds4.c.obj: C_COMPILER__auds4_Debug E$:/CLion$ 2022.2/CLION$ PROGRAMS/sp/audstringovi/auds4.c || cmake_object_order_depends_target_auds4
+  DEP_FILE = CMakeFiles\auds4.dir\audstringovi\auds4.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\auds4.dir
+  OBJECT_FILE_DIR = CMakeFiles\auds4.dir\audstringovi
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target auds4
+
+
+#############################################
+# Link the executable auds4.exe
+
+build auds4.exe: C_EXECUTABLE_LINKER__auds4_Debug CMakeFiles/auds4.dir/audstringovi/auds4.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\auds4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = auds4.exe
+  TARGET_IMPLIB = libauds4.dll.a
+  TARGET_PDB = auds4.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target auds5
+
+
+#############################################
+# Order-only phony target for auds5
+
+build cmake_object_order_depends_target_auds5: phony || CMakeFiles/auds5.dir
+
+build CMakeFiles/auds5.dir/audstringovi/auds5.c.obj: C_COMPILER__auds5_Debug E$:/CLion$ 2022.2/CLION$ PROGRAMS/sp/audstringovi/auds5.c || cmake_object_order_depends_target_auds5
+  DEP_FILE = CMakeFiles\auds5.dir\audstringovi\auds5.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\auds5.dir
+  OBJECT_FILE_DIR = CMakeFiles\auds5.dir\audstringovi
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target auds5
+
+
+#############################################
+# Link the executable auds5.exe
+
+build auds5.exe: C_EXECUTABLE_LINKER__auds5_Debug CMakeFiles/auds5.dir/audstringovi/auds5.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\auds5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = auds5.exe
+  TARGET_IMPLIB = libauds5.dll.a
+  TARGET_PDB = auds5.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target auds6
+
+
+#############################################
+# Order-only phony target for auds6
+
+build cmake_object_order_depends_target_auds6: phony || CMakeFiles/auds6.dir
+
+build CMakeFiles/auds6.dir/audstringovi/auds6.c.obj: C_COMPILER__auds6_Debug E$:/CLion$ 2022.2/CLION$ PROGRAMS/sp/audstringovi/auds6.c || cmake_object_order_depends_target_auds6
+  DEP_FILE = CMakeFiles\auds6.dir\audstringovi\auds6.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\auds6.dir
+  OBJECT_FILE_DIR = CMakeFiles\auds6.dir\audstringovi
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target auds6
+
+
+#############################################
+# Link the executable auds6.exe
+
+build auds6.exe: C_EXECUTABLE_LINKER__auds6_Debug CMakeFiles/auds6.dir/audstringovi/auds6.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\auds6.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = auds6.exe
+  TARGET_IMPLIB = libauds6.dll.a
+  TARGET_PDB = auds6.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target auds7
+
+
+#############################################
+# Order-only phony target for auds7
+
+build cmake_object_order_depends_target_auds7: phony || CMakeFiles/auds7.dir
+
+build CMakeFiles/auds7.dir/audstringovi/auds7.c.obj: C_COMPILER__auds7_Debug E$:/CLion$ 2022.2/CLION$ PROGRAMS/sp/audstringovi/auds7.c || cmake_object_order_depends_target_auds7
+  DEP_FILE = CMakeFiles\auds7.dir\audstringovi\auds7.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\auds7.dir
+  OBJECT_FILE_DIR = CMakeFiles\auds7.dir\audstringovi
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target auds7
+
+
+#############################################
+# Link the executable auds7.exe
+
+build auds7.exe: C_EXECUTABLE_LINKER__auds7_Debug CMakeFiles/auds7.dir/audstringovi/auds7.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\auds7.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = auds7.exe
+  TARGET_IMPLIB = libauds7.dll.a
+  TARGET_PDB = auds7.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -531,6 +762,20 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 build audf1: phony audf1.exe
 
 build audf2: phony audf2.exe
+
+build auds1: phony auds1.exe
+
+build auds2: phony auds2.exe
+
+build auds3: phony auds3.exe
+
+build auds4: phony auds4.exe
+
+build auds5: phony auds5.exe
+
+build auds6: phony auds6.exe
+
+build auds7: phony auds7.exe
 
 build labs6zad1: phony labs6zad1.exe
 
@@ -564,7 +809,7 @@ build zad4: phony zad4.exe
 #############################################
 # Folder: E:/CLion 2022.2/CLION PROGRAMS/sp/cmake-build-debug
 
-build all: phony labs6zad1.exe labs6zad3.exe labs6zad4.exe labs6zad8.exe labs6zad9.exe labs6zad10.exe labs6zad11.exe zad1.exe zad3.exe zad4.exe audf1.exe audf2.exe labs8zad1.exe labs8zad2.exe
+build all: phony labs6zad1.exe labs6zad3.exe labs6zad4.exe labs6zad8.exe labs6zad9.exe labs6zad10.exe labs6zad11.exe zad1.exe zad3.exe zad4.exe audf1.exe audf2.exe labs8zad1.exe labs8zad2.exe auds1.exe auds2.exe auds3.exe auds4.exe auds5.exe auds6.exe auds7.exe
 
 # =============================================================================
 # Built-in targets

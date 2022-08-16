@@ -12,5 +12,12 @@ E:/CLion 2022.2/CLION PROGRAMS/sp/cmake-build-debug/CMakeFiles/audf1.dir
 E:/CLion 2022.2/CLION PROGRAMS/sp/cmake-build-debug/CMakeFiles/audf2.dir
 E:/CLion 2022.2/CLION PROGRAMS/sp/cmake-build-debug/CMakeFiles/labs8zad1.dir
 E:/CLion 2022.2/CLION PROGRAMS/sp/cmake-build-debug/CMakeFiles/labs8zad2.dir
+E:/CLion 2022.2/CLION PROGRAMS/sp/cmake-build-debug/CMakeFiles/auds1.dir
+E:/CLion 2022.2/CLION PROGRAMS/sp/cmake-build-debug/CMakeFiles/auds2.dir
+E:/CLion 2022.2/CLION PROGRAMS/sp/cmake-build-debug/CMakeFiles/auds3.dir
+E:/CLion 2022.2/CLION PROGRAMS/sp/cmake-build-debug/CMakeFiles/auds4.dir
+E:/CLion 2022.2/CLION PROGRAMS/sp/cmake-build-debug/CMakeFiles/auds5.dir
+E:/CLion 2022.2/CLION PROGRAMS/sp/cmake-build-debug/CMakeFiles/auds6.dir
+E:/CLion 2022.2/CLION PROGRAMS/sp/cmake-build-debug/CMakeFiles/auds7.dir
 E:/CLion 2022.2/CLION PROGRAMS/sp/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/CLion 2022.2/CLION PROGRAMS/sp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
